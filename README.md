@@ -10,10 +10,18 @@
 
 A lo largo del proyecto se implementan y simulan varios modelos, cada uno con diferentes parámetros y escenarios:
 
-    **Modelo de Incidencia Constante:** Simula la evolución de una enfermedad en una población bajo la hipótesis de que se diagnostican o notifican un número constante de nuevos casos en cada unidad de tiempo.
+**Modelo de Incidencia Constante:** 
+    
+    Simula la evolución de una enfermedad en una población bajo la hipótesis de que se diagnostican o notifican un número constante de nuevos casos en cada unidad de tiempo.
 
-    **Modelo de Tasa de Incidencia Constante:** En este modelo, la incidencia depende de la cantidad de personas susceptibles, corrigiendo las limitaciones del modelo anterior.
+**Modelo de Tasa de Incidencia Constante:** 
 
-    **Modelo de Tasa de Contagio Constante:** Aquí, la tasa de contagio es proporcional a la prevalencia de la enfermedad, reflejando una mayor probabilidad de infección cuando hay más personas enfermas en la población.
+    En este modelo, la incidencia depende de la cantidad de personas susceptibles, corrigiendo las limitaciones del modelo anterior.
 
-    **Modelo con Recuperación y Fallecimiento:** Extiende los modelos anteriores al incluir dinámicas de recuperación y mortalidad entre la población enferma, con la posibilidad de reinfección.
+**Modelo de Tasa de Contagio Constante:** 
+
+    Aquí, la tasa de contagio es proporcional a la prevalencia de la enfermedad, reflejando una mayor probabilidad de infección cuando hay más personas enfermas en la población.
+
+**Modelo con Recuperación y Fallecimiento:** 
+
+    Extiende los modelos anteriores al incluir dinámicas de recuperación y mortalidad entre la población enferma, con la posibilidad de reinfección.
